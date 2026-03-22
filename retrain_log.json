@@ -1,0 +1,138 @@
+[
+  {
+    "trained_at": "2026-03-20T21:20:22.049967",
+    "model_type": "rf",
+    "n_train": 3119,
+    "n_test": 780,
+    "features": [
+      "temperature",
+      "humidity",
+      "pm10",
+      "pm25_lag1",
+      "pm25_lag2",
+      "pm25_lag3",
+      "pm25_lag4",
+      "pm25_lag5",
+      "pm25_lag6",
+      "pm10_lag1",
+      "pm25_roll3",
+      "pm25_roll6",
+      "pm25_std6",
+      "hour",
+      "day_of_week"
+    ],
+    "cv_metrics": {
+      "cv_mae_mean": 5.711,
+      "cv_mae_std": 5.032,
+      "cv_r2_mean": -18.2395,
+      "model_type": "rf"
+    },
+    "test_metrics": {
+      "mae": 3.17,
+      "rmse": 5.149,
+      "r2": 0.7112
+    }
+  },
+  {
+    "trained_at": "2026-03-20T21:46:57.284501",
+    "model_type": "rf",
+    "n_train": 3119,
+    "n_test": 780,
+    "features": [
+      "temperature",
+      "humidity",
+      "pm10",
+      "pm25_lag1",
+      "pm25_lag2",
+      "pm25_lag3",
+      "pm25_lag4",
+      "pm25_lag5",
+      "pm25_lag6",
+      "pm10_lag1",
+      "pm25_roll3",
+      "pm25_roll6",
+      "pm25_std6",
+      "hour",
+      "day_of_week"
+    ],
+    "cv_metrics": {
+      "cv_mae_mean": 5.711,
+      "cv_mae_std": 5.032,
+      "cv_r2_mean": -18.2395,
+      "model_type": "rf"
+    },
+    "test_metrics": {
+      "mae": 3.17,
+      "rmse": 5.149,
+      "r2": 0.7112
+    }
+  },
+  {
+    "trained_at": "2026-03-20T21:47:35.337066",
+    "model_type": "rf",
+    "n_train": 3119,
+    "n_test": 780,
+    "features": [
+      "temperature",
+      "humidity",
+      "pm10",
+      "pm25_lag1",
+      "pm25_lag2",
+      "pm25_lag3",
+      "pm25_lag4",
+      "pm25_lag5",
+      "pm25_lag6",
+      "pm10_lag1",
+      "pm25_roll3",
+      "pm25_roll6",
+      "pm25_std6",
+      "hour",
+      "day_of_week"
+    ],
+    "cv_metrics": {
+      "cv_mae_mean": 5.711,
+      "cv_mae_std": 5.032,
+      "cv_r2_mean": -18.2395,
+      "model_type": "rf"
+    },
+    "test_metrics": {
+      "mae": 3.17,
+      "rmse": 5.149,
+      "r2": 0.7112
+    }
+  },
+  {
+    "trained_at": "2026-03-20T21:48:01.451188",
+    "model_type": "rf",
+    "n_train": 3119,
+    "n_test": 780,
+    "features": [
+      "temperature",
+      "humidity",
+      "pm10",
+      "pm25_lag1",
+      "pm25_lag2",
+      "pm25_lag3",
+      "pm25_lag4",
+      "pm25_lag5",
+      "pm25_lag6",
+      "pm10_lag1",
+      "pm25_roll3",
+      "pm25_roll6",
+      "pm25_std6",
+      "hour",
+      "day_of_week"
+    ],
+    "cv_metrics": {
+      "cv_mae_mean": 5.711,
+      "cv_mae_std": 5.032,
+      "cv_r2_mean": -18.2395,
+      "model_type": "rf"
+    },
+    "test_metrics": {
+      "mae": 3.17,
+      "rmse": 5.149,
+      "r2": 0.7112
+    }
+  }
+]

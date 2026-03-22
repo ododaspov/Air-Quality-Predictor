@@ -1,0 +1,16 @@
+{
+  "state": "ready",
+  "message": "Data updated. Model retained (performance OK).",
+  "retrained": false,
+  "skip_reason": "Recent MAE=5.48 within threshold.",
+  "pipeline": {
+    "run_time": "2026-03-22T15:06:03.541352",
+    "total_rows": 4273,
+    "new_rows": 0,
+    "locations": 2,
+    "pm25_mean": 18.74,
+    "pm25_std": 18.83,
+    "spikes": 0
+  },
+  "updated_at": "2026-03-22T15:06:03.837355"
+}

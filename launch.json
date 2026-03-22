@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶ Run Streamlit Dashboard",
+      "type": "python",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "dashboard.py", "--server.runOnSave=true"],
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "▶ Run Data Pipeline",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/data_pipeline.py",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "▶ Train Model",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/model_training.py",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "▶ Auto-Update Scheduler",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/auto_update.py",
+      "args": ["300"],
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    }
+  ]
+}

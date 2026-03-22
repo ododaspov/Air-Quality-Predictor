@@ -1,0 +1,34 @@
+# =============================================================
+#  Nairobi Air Quality Project — Python Dependencies
+#  Install inside venv:
+#    pip install -r requirements.txt
+# =============================================================
+
+# ── Core data ────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ── Machine learning ─────────────────────────────────────────
+scikit-learn>=1.3.0
+
+# ── Statistics / drift detection ─────────────────────────────
+scipy>=1.11.0
+
+# ── HTTP requests ────────────────────────────────────────────
+requests>=2.31.0
+
+# ── Environment variable loading ─────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Dashboard ────────────────────────────────────────────────
+streamlit>=1.32.0
+plotly>=5.18.0
+
+# ── Notebook ─────────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.25.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Optional: OLS trendline in plotly scatter ────────────────
+statsmodels>=0.14.0
