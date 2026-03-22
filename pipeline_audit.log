@@ -1057,3 +1057,53 @@
 2026-03-22 17:54:32 [INFO] No new data detected.
 2026-03-22 17:59:49 [INFO] No new data detected.
 2026-03-22 18:00:30 [INFO] No new data detected.
+2026-03-22 18:04:55 [INFO] Pipeline run started
+2026-03-22 18:04:55 [INFO] Fetching: https://open.africa/dataset/44359020-b2b0-4b66-af09-3de18d6519dc/resource/d8bb7a86-fef9-4206-9616-3591daff36f1/download/tmp7ac1ezhw.csv
+2026-03-22 18:05:40 [INFO] Downloaded 5,913,103 bytes
+2026-03-22 18:05:41 [INFO] Detected delimiter: ';'
+2026-03-22 18:05:44 [INFO] Pipeline run started
+2026-03-22 18:05:44 [INFO] Fetching: https://open.africa/dataset/44359020-b2b0-4b66-af09-3de18d6519dc/resource/d8bb7a86-fef9-4206-9616-3591daff36f1/download/tmp7ac1ezhw.csv
+2026-03-22 18:05:45 [INFO] Raw shape: (83351, 8)  columns: ['sensor_id', 'sensor_type', 'location', 'lat', 'lon', 'timestamp', 'value_type', 'value']
+2026-03-22 18:05:45 [INFO]   Unique value_types: ['humidity', 'temperature', 'P2', 'P1', 'P0']
+2026-03-22 18:05:45 [INFO]   Unique locations:   2
+2026-03-22 18:05:45 [INFO]   PM rows: 28,366   ENV rows: 19,044
+2026-03-22 18:05:46 [INFO]   PM resampled: (4016, 7)   ENV resampled: (4079, 4)
+2026-03-22 18:05:46 [INFO]   Wide shape: (4273, 9)
+2026-03-22 18:05:46 [INFO]   Missing %%: {'pm25': 0.0, 'pm10': 0.0, 'pm1': 0.0, 'temperature': 0.0, 'humidity': 0.0}
+2026-03-22 18:05:46 [INFO]   [pm25] clipped 1 out-of-range values
+2026-03-22 18:05:46 [INFO]   [humidity] clipped 1 out-of-range values
+2026-03-22 18:05:46 [INFO]   Dropped 1 rows with no PM2.5
+2026-03-22 18:05:46 [INFO]   Clean shape: (4272, 10)  spikes: 0
+2026-03-22 18:05:46 [INFO] Loaded 4,261 existing records from historical_data.csv
+2026-03-22 18:05:46 [WARNING]   DATA DRIFT [pm25]: KS=0.122  p=0.0000
+2026-03-22 18:05:46 [WARNING]   DATA DRIFT [pm10]: KS=0.121  p=0.0000
+2026-03-22 18:05:46 [WARNING]   DATA DRIFT [temperature]: KS=0.156  p=0.0000
+2026-03-22 18:05:47 [INFO] Pipeline complete: {'run_time': '2026-03-22T15:05:46.992904', 'total_rows': 4273, 'new_rows': 12, 'locations': 2, 'pm25_mean': 18.74, 'pm25_std': 18.83, 'spikes': 0}
+2026-03-22 18:05:53 [INFO] No new data detected.
+2026-03-22 18:05:58 [INFO] Downloaded 5,913,103 bytes
+2026-03-22 18:05:58 [INFO] Detected delimiter: ';'
+2026-03-22 18:06:02 [INFO] Raw shape: (83351, 8)  columns: ['sensor_id', 'sensor_type', 'location', 'lat', 'lon', 'timestamp', 'value_type', 'value']
+2026-03-22 18:06:02 [INFO]   Unique value_types: ['humidity', 'temperature', 'P2', 'P1', 'P0']
+2026-03-22 18:06:02 [INFO]   Unique locations:   2
+2026-03-22 18:06:02 [INFO]   PM rows: 28,366   ENV rows: 19,044
+2026-03-22 18:06:02 [INFO]   PM resampled: (4016, 7)   ENV resampled: (4079, 4)
+2026-03-22 18:06:02 [INFO]   Wide shape: (4273, 9)
+2026-03-22 18:06:02 [INFO]   Missing %%: {'pm25': 0.0, 'pm10': 0.0, 'pm1': 0.0, 'temperature': 0.0, 'humidity': 0.0}
+2026-03-22 18:06:02 [INFO]   [pm25] clipped 1 out-of-range values
+2026-03-22 18:06:02 [INFO]   [humidity] clipped 1 out-of-range values
+2026-03-22 18:06:02 [INFO]   Dropped 1 rows with no PM2.5
+2026-03-22 18:06:02 [INFO]   Clean shape: (4272, 10)  spikes: 0
+2026-03-22 18:06:03 [INFO] Loaded 4,273 existing records from historical_data.csv
+2026-03-22 18:06:03 [WARNING]   DATA DRIFT [pm25]: KS=0.146  p=0.0000
+2026-03-22 18:06:03 [WARNING]   DATA DRIFT [pm10]: KS=0.145  p=0.0000
+2026-03-22 18:06:03 [WARNING]   DATA DRIFT [temperature]: KS=0.156  p=0.0000
+2026-03-22 18:06:03 [INFO] Pipeline complete: {'run_time': '2026-03-22T15:06:03.541352', 'total_rows': 4273, 'new_rows': 0, 'locations': 2, 'pm25_mean': 18.74, 'pm25_std': 18.83, 'spikes': 0}
+2026-03-22 18:06:03 [INFO] Cycle complete: Data updated. Model retained (performance OK).
+2026-03-22 18:11:10 [INFO] No new data detected.
+2026-03-22 18:11:47 [INFO] No new data detected.
+2026-03-22 18:16:50 [INFO] No new data detected.
+2026-03-22 18:17:02 [INFO] No new data detected.
+2026-03-22 18:22:14 [INFO] No new data detected.
+2026-03-22 18:22:32 [INFO] No new data detected.
+2026-03-22 18:27:42 [INFO] No new data detected.
+2026-03-22 18:28:13 [INFO] No new data detected.
